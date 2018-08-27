@@ -473,7 +473,6 @@ header {
         border: none; }
 
 .header-container {
-  overflow: hidden;
   background: url(../img/brand/background.png), #51b9b4;
   background-position: center;
   background-size: cover;
