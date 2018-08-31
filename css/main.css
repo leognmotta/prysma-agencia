@@ -1221,7 +1221,6 @@ header .container {
 }
 
 #email-form {
-  position: absolute;
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -1237,6 +1236,7 @@ header .container {
   padding: 1em;
   border: 2px solid #3e9995;
   border-radius: 10px;
+  overflow-y: auto;
 }
 #email-form .menu-btn-form {
   position: absolute;
@@ -1306,6 +1306,7 @@ header .container {
   background: #3e9995;
   border-color: #378783;
   color: #e8e8e8;
+  cursor: pointer;
 }
 
 .hide-form {
